@@ -1,0 +1,2 @@
+add_executable(rate_limiter_example main.cpp)
+target_link_libraries(rate_limiter_example PRIVATE rate_limiter)

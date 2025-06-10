@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.1)
+project(rate_limiter)
+add_library(rate_limiter src/rate_limiter.cpp)
+target_include_directories(rate_limiter PUBLIC include)
+add_subdirectory(example)
