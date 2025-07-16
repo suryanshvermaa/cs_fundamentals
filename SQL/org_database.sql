@@ -1,6 +1,6 @@
 -- Active: 1749803121891@@127.0.0.1@3306@mysql
 CREATE DATABASE org;
-
+-- DROP DATABASE org;
 USE org;
 
 CREATE TABLE Worker (
